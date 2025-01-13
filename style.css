@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.titlle {
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+}
+
+.insta1 {
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: orange;
+    text-decoration: none;
+}
+
+
+
+
+.perfil {
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media (max-width: 800px){
+    .insta1 {
+        margin-left: 20px;
+    }
+    .titlle {
+        margin-bottom: 20px;
+        padding: 12px;
+        text-align: left;
+    }
+}
+
+.insta1:hover {
+    transition: 0.40s;
+    padding: 14px
+}
+
+    
+
+
+
